@@ -1,12 +1,12 @@
 #include <iostream>
-
+#include "complex.hpp"
 int main() {
 	Complex c1;
 	c1.print();
-
+	
 	Complex c2(1.0);
 	c2.print();
-
+	
 	Complex c3(3.0, 4.0);
 	c3.print();
 
